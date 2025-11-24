@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes Locker DApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🔐 Notes Locker</h1>
+    <button id="connectBtn">Connect MetaMask</button>
+
+    <div id="appSection" style="display:none;">
+        <textarea id="noteInput" placeholder="Enter your private encrypted note..."></textarea>
+        <button id="saveBtn">Save Note</button>
+
+        <h2>Your Notes</h2>
+        <div id="notesList"></div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
